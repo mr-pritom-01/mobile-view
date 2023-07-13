@@ -70,7 +70,19 @@
     width: 150px;
     padding: 5%;
     box-shadow: 1px 1px 5px;
+    background-color: rgb(222, 246, 174);
 }
 .product {
     width:125px;
+}
+.deal-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-evenly;
+    background-color: rgb(188, 231, 114);
+    margin: 5px;
+    box-shadow: 2px 2px 8px;
+    border-radius: 20px 1px;
 }
