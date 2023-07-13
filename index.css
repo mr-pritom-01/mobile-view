@@ -12,7 +12,7 @@
     background-color: rgb(188, 231, 114);
 }
 .logo-photo{
-    width: 30%;
+    width: 39%;
 }
 .menu {
     display: flex;
@@ -20,13 +20,13 @@
     list-style: none;
     justify-content: space-around;
     margin: auto;
-    gap: 10px;
+    gap: 15px;
     text-align: end;
     align-items: center;
     font-weight: bold;
 }
 .banner-container {
-    height: 60vh;
+    height: 70vh;
     border: 2px solid black;
     display: flex;
     padding-left: 2%;
@@ -45,4 +45,8 @@
 .banner-text {
     width: 35%;
     text-align: justify;
+}
+
+.buy-products {
+
 }
