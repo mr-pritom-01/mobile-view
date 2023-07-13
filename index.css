@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Courier New', Courier, monospace;
+}
+.menu-container {
+    display: flex;
+    border: 2px solid red;
+    text-align: start;
+    align-items: center;
+    padding: 0px 5px;
+    background-color: rgb(188, 231, 114);
+}
+.logo-photo{
+    width: 30%;
+}
+.menu {
+    display: flex;
+    font-size: 60%;
+    list-style: none;
+    justify-content: space-around;
+    margin: auto;
+    gap: 10px;
+    text-align: end;
+    align-items: center;
+    font-weight: bold;
+}
+.banner-container {
+    height: 60vh;
+    border: 2px solid black;
+    display: flex;
+    padding-left: 2%;
+    flex-direction: row-reverse;
+    align-items: end ;
+    justify-content: space-between;
+    background-color: rgb(213, 241, 156);
+}
+.banner-pic {
+    width: 230px;
+    height: 370px;
+    text-align: left;
+    margin: auto;
+    align-items: start;
+}
+.banner-text {
+    width: 35%;
+    text-align: justify;
+}
